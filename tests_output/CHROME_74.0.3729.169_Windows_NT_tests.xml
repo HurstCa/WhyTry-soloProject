@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="tests"
+    errors="0" failures="1" hostname="" id="" package="tests" skipped="0"
+    tests="1" time="114.8" timestamp="">
+  
+    <testcase name="Sign up for an event" classname="tests" time="114.8" assertions="7">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Testing if element &lt;.eb-page-heading&gt; contains text: &#34;Registration Completed&#34; in 1000 ms. - expected [0;32m&#34;Registration Completed&#34;[0m but got: [0;31m&#34;REGISTRATION COMPLETED&#34;[0m">    at Page.fillForm (C:\Users\Owner\DevMtn\soloProject\pageObjects\pageObjects.js:34:17)
+    at Object.Sign up for an event (C:\Users\Owner\DevMtn\soloProject\tests\tests.js:36:10)</failure>
+
+    <failure message="    at Page.fillForm (C:\Users\Owner\DevMtn\soloProject\pageObjects\pageObjects.js:34:17)">    at Object.Sign up for an event (C:\Users\Owner\DevMtn\soloProject\tests\tests.js:36:10)</failure>
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>
