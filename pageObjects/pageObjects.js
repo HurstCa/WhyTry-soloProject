@@ -84,5 +84,53 @@ module.exports = {
             selector: '(//label[@class="radio"])[2]',
             locateStrategy: 'xpath'
         },
+        music: {
+            selector: '//a[text()="Music Resources"]',
+            locateStrategy: 'xpath'
+        },
+        video: {
+            selector: '(//a[text()="Video Resources"])[2]',
+            locateStrategy: 'xpath'
+        },
+        webinar: {
+            selector: '//a[text()="Webinar Archive"]',
+            locateStrategy: 'xpath'
+        },
+        research: {
+            selector: '(//a[text()="Research"])[2]',
+            locateStrategy: 'xpath'
+        },
+        assessments: {
+            selector: '(//a[text()="Assessments"])[2]',
+            locateStrategy: 'xpath'
+        },
+        funding: {
+            selector: '(//a[text()="Funding Resources"])[2]',
+            locateStrategy: 'xpath'
+        },
+        related: {
+            selector: '//a[text()="Related Links"]',
+            locateStrategy: 'xpath'
+        },
+        teaching: {
+            selector: '//a[text()="Teaching Resources"]',
+            locateStrategy: 'xpath'
+        },
+        bookstore: {
+            selector: '//a[text()="Bookstore"]',
+            locateStrategy: 'xpath'
+        },
+        musicpg: {
+            selector: '(//h1)[1]',
+            locateStrategy: 'xpath'
+        },
+        researchpg: {
+            selector: '(//h1)[2]',
+            locateStrategy: 'xpath'
+        },
+        teachingpg: {
+            selector: '(//h1)[1]',
+            locateStrategy: 'xpath'
+        },
     }
 }
