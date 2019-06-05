@@ -1,5 +1,29 @@
-11:54:36.873 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
-11:54:36.973 INFO [GridLauncherV3.lambda$buildLaunchers$3] - Launching a standalone Selenium Server on port 4445
-2019-06-04 11:54:37.020:INFO::main: Logging initialized @363ms to org.seleniumhq.jetty9.util.log.StdErrLog
-11:54:37.224 INFO [WebDriverServlet.<init>] - Initialising WebDriverServlet
-11:54:37.435 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 4445
+14:16:33.094 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+14:16:33.341 INFO [GridLauncherV3.lambda$buildLaunchers$3] - Launching a standalone Selenium Server on port 4445
+2019-06-05 14:16:33.391:INFO::main: Logging initialized @939ms to org.seleniumhq.jetty9.util.log.StdErrLog
+14:16:33.697 INFO [WebDriverServlet.<init>] - Initialising WebDriverServlet
+14:16:34.028 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 4445
+14:16:34.389 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+  "acceptSslCerts": true,
+  "browserName": "chrome",
+  "chromeOptions": {
+    "mobileEmulation": {
+      "deviceMetrics": {
+        "width": 360,
+        "height": 640,
+        "pixelRatio": 3
+      },
+      "userAgent": "Mozilla\u002f5.0 (Linux; Android 6.0; Nexus 5 Build\u002fMRA58N) AppleWebKit\u002f537.36 (KHTML, like Gecko) Chrome\u002f60.0.3112.101 Mobile Safari\u002f537.36 profi-autotest"
+    }
+  },
+  "javascriptEnabled": true,
+  "name": "Tests"
+}
+14:16:34.393 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}) on port 27714
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1559765796.400][WARNING]: This version of ChromeDriver has not been tested with Chrome version 75.
+14:16:37.502 INFO [ProtocolHandshake.createSession] - Detected dialect: OSS
+14:16:37.956 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session ad1ead19cbb2b1d34a0a899c1c7da84f (org.openqa.selenium.chrome.ChromeDriverService)
+14:20:23.430 INFO [ActiveSessions$1.onStop] - Removing session ad1ead19cbb2b1d34a0a899c1c7da84f (org.openqa.selenium.chrome.ChromeDriverService)

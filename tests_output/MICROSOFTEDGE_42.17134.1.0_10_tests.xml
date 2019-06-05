@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="27"
+            failures="9"
+            tests="1">
+
+  <testsuite name="tests"
+    errors="27" failures="9" hostname="" id="" package="tests" skipped="0"
+    tests="1" time="69.40" timestamp="">
+  
+    <testcase name="Resources" classname="tests" time="69.40" assertions="27">
+
+    
+
+      <failure message="Testing if element &lt;Element [name=@musicpg]&gt; contains text: &#34;SAMPLE THE WHYTRY MUSIC&#34;. Element could not be located in 1000 ms. - expected [0;32m&#34;SAMPLE THE WHYTRY MUSIC&#34;[0m but got: [0;31m&#34;null&#34;[0m">    at Resources.resources.forEach.test (C:\Users\Owner\DevMtn\soloProject\tests\tests.js:47:17)
+    at Array.forEach (&lt;anonymous&gt;)
+    at Object.Resources (C:\Users\Owner\DevMtn\soloProject\tests\tests.js:41:19)</failure>
+
+    
+
+    
+
+      <failure message="Testing if element &lt;.uk-margin-remove&gt; contains text: &#34;VIDEO RESOURCES&#34;. Element could not be located in 1000 ms. - expected [0;32m&#34;VIDEO RESOURCES&#34;[0m but got: [0;31m&#34;null&#34;[0m">    at Resources.resources.forEach.test (C:\Users\Owner\DevMtn\soloProject\tests\tests.js:47:17)
+    at Array.forEach (&lt;anonymous&gt;)
+    at Object.Resources (C:\Users\Owner\DevMtn\soloProject\tests\tests.js:41:19)</failure>
+
+    
+
+    
+
+      <failure message="Testing if element &lt;h2&gt; contains text: &#34;WEBINAR ARCHIVE ACCESS FORM&#34;. Element could not be located in 1000 ms. - expected [0;32m&#34;WEBINAR ARCHIVE ACCESS FORM&#34;[0m but got: [0;31m&#34;null&#34;[0m">    at Resources.resources.forEach.test (C:\Users\Owner\DevMtn\soloProject\tests\tests.js:47:17)
+    at Array.forEach (&lt;anonymous&gt;)
+    at Object.Resources (C:\Users\Owner\DevMtn\soloProject\tests\tests.js:41:19)</failure>
+
+    
+
+    
+
+      <failure message="Testing if element &lt;Element [name=@researchpg]&gt; contains text: &#34;WHYTRY: AN EVIDENCE-BASED PROGRAM&#34;. Element could not be located in 1000 ms. - expected [0;32m&#34;WHYTRY: AN EVIDENCE-BASED PROGRAM&#34;[0m but got: [0;31m&#34;null&#34;[0m">    at Resources.resources.forEach.test (C:\Users\Owner\DevMtn\soloProject\tests\tests.js:47:17)
+    at Array.forEach (&lt;anonymous&gt;)
+    at Object.Resources (C:\Users\Owner\DevMtn\soloProject\tests\tests.js:41:19)</failure>
+
+    
+
+    
+
+      <failure message="Testing if element &lt;h1&gt; contains text: &#34;ASSESSING WHYTRY&#34;. Element could not be located in 1000 ms. - expected [0;32m&#34;ASSESSING WHYTRY&#34;[0m but got: [0;31m&#34;null&#34;[0m">    at Resources.resources.forEach.test (C:\Users\Owner\DevMtn\soloProject\tests\tests.js:47:17)
+    at Array.forEach (&lt;anonymous&gt;)
+    at Object.Resources (C:\Users\Owner\DevMtn\soloProject\tests\tests.js:41:19)</failure>
+
+    
+
+    
+
+      <failure message="Testing if element &lt;h1&gt; contains text: &#34;FUNDING RESOURCES&#34;. Element could not be located in 1000 ms. - expected [0;32m&#34;FUNDING RESOURCES&#34;[0m but got: [0;31m&#34;null&#34;[0m">    at Resources.resources.forEach.test (C:\Users\Owner\DevMtn\soloProject\tests\tests.js:47:17)
+    at Array.forEach (&lt;anonymous&gt;)
+    at Object.Resources (C:\Users\Owner\DevMtn\soloProject\tests\tests.js:41:19)</failure>
+
+    
+
+    
+
+      <failure message="Testing if element &lt;[href=&#34;/index.php?option=com_weblinks&amp;view=category&amp;id=92&amp;Itemid=464&#34;]&gt; contains text: &#34;CHARACTER EDUCATION&#34;. Element could not be located in 1000 ms. - expected [0;32m&#34;CHARACTER EDUCATION&#34;[0m but got: [0;31m&#34;null&#34;[0m">    at Resources.resources.forEach.test (C:\Users\Owner\DevMtn\soloProject\tests\tests.js:47:17)
+    at Array.forEach (&lt;anonymous&gt;)
+    at Object.Resources (C:\Users\Owner\DevMtn\soloProject\tests\tests.js:41:19)</failure>
+
+    
+
+    
+
+      <failure message="Testing if element &lt;Element [name=@teachingpg]&gt; contains text: &#34;THE FIRST DAY OF CLASS&#34;. Element could not be located in 1000 ms. - expected [0;32m&#34;THE FIRST DAY OF CLASS&#34;[0m but got: [0;31m&#34;null&#34;[0m">    at Resources.resources.forEach.test (C:\Users\Owner\DevMtn\soloProject\tests\tests.js:47:17)
+    at Array.forEach (&lt;anonymous&gt;)
+    at Object.Resources (C:\Users\Owner\DevMtn\soloProject\tests\tests.js:41:19)</failure>
+
+    
+
+    
+
+      <failure message="Testing if element &lt;h1&gt; contains text: &#34;RELATED BOOKS AND RESOURCES&#34;. Element could not be located in 1000 ms. - expected [0;32m&#34;RELATED BOOKS AND RESOURCES&#34;[0m but got: [0;31m&#34;null&#34;[0m">    at Resources.resources.forEach.test (C:\Users\Owner\DevMtn\soloProject\tests\tests.js:47:17)
+    at Array.forEach (&lt;anonymous&gt;)
+    at Object.Resources (C:\Users\Owner\DevMtn\soloProject\tests\tests.js:41:19)</failure>
+
+    <failure message="    at Resources.resources.forEach.test (C:\Users\Owner\DevMtn\soloProject\tests\tests.js:47:17)">    at Array.forEach (&lt;anonymous&gt;)
+    at Object.Resources (C:\Users\Owner\DevMtn\soloProject\tests\tests.js:41:19)</failure>
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

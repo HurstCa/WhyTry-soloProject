@@ -37,9 +37,17 @@ module.exports = {
         }
       },
   
-      "edge" : {
+      "chromeMobile" : {
         "desiredCapabilities": {
-          "browserName": "MicrosoftEdge"
+          "browserName": "chrome",
+          "javascriptEnabled" : true,
+        "acceptSslCerts" : true,
+        "chromeOptions": {"mobileEmulation": {
+        "deviceMetrics": {"width": 360, "height": 640, "pixelRatio": 3},
+        "userAgent":
+          'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Mobile Safari/537.36 profi-autotest',
+          }
+      }
         }
       }
     }

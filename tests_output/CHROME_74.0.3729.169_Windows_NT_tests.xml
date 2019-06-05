@@ -1,13 +1,153 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="0"
-            failures="0"
-            tests="1">
+<testsuites errors="21"
+            failures="2"
+            tests="3">
 
   <testsuite name="tests"
-    errors="0" failures="0" hostname="" id="" package="tests" skipped="0"
-    tests="1" time="87.95" timestamp="">
+    errors="21" failures="2" hostname="" id="" package="tests" skipped="1"
+    tests="3" time="68.19" timestamp="">
   
-    <testcase name="Resources" classname="tests" time="87.95" assertions="3">
+    <testcase name="Page Links are Visible from Any Page" classname="tests" time="40.22" assertions="73">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 
     
 
@@ -16,9 +156,46 @@
     
     </testcase>
   
+    <testcase name="Search" classname="tests" time="4.639" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Sign up for an event" classname="tests" time="23.34" assertions="7">
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Testing if element &lt;.eb-page-heading&gt; contains text: &#34;INDIVIDUAL REGISTRATION&#34;. Element could not be located in 1000 ms. - expected [0;32m&#34;INDIVIDUAL REGISTRATION&#34;[0m but got: [0;31m&#34;null&#34;[0m">    at Page.selectEvent (C:\Users\Owner\DevMtn\soloProject\pageObjects\pageObjects.js:22:17)
+    at Object.Sign up for an event (C:\Users\Owner\DevMtn\soloProject\tests\tests.js:37:10)</failure>
+
+      <failure message="Testing if element &lt;.eb-page-heading&gt; contains text: &#34;REGISTRATION COMPLETED&#34;. Element could not be located in 1000 ms. - expected [0;32m&#34;REGISTRATION COMPLETED&#34;[0m but got: [0;31m&#34;null&#34;[0m">    at Page.fillForm (C:\Users\Owner\DevMtn\soloProject\pageObjects\pageObjects.js:34:17)
+    at Object.Sign up for an event (C:\Users\Owner\DevMtn\soloProject\tests\tests.js:38:10)</failure>
+
+    <failure message="    at Page.fillForm (C:\Users\Owner\DevMtn\soloProject\pageObjects\pageObjects.js:34:17)">    at Object.Sign up for an event (C:\Users\Owner\DevMtn\soloProject\tests\tests.js:38:10)</failure>
+    </testcase>
+  
 
   
 
+  
+    
+    <testcase
+      name="Resources" classname="tests">
+      <skipped />
+    </testcase>
+    
   
   </testsuite>
 </testsuites>

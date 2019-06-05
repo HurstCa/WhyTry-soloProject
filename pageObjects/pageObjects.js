@@ -9,10 +9,20 @@ let whytrycommands = {
         this.verify.visible('@search')
         return this
     },
-    selectEvent: function() {
+    pagelinksMobile: function(testData) {
         this
-        .waitForElementVisible('@events')
-        .click('@events')
+        .waitForElementVisible('.uk-navbar-toggle')
+        .click('.uk-navbar-toggle')
+        testData.forEach (test => {
+            this
+            .verify.visible(test.selector)
+        })
+        return this
+    },
+    selectEvent: function(selector) {
+        this
+        .waitForElementVisible(selector)
+        .click(selector)
         .waitForElementVisible('@firstevent')
         .click('@firstevent')
         .waitForElementVisible('@individual')
@@ -29,11 +39,11 @@ let whytrycommands = {
         })
         this
         .click('@payMethod')
-        .pause(10000)
         .click('[name="btn-submit"]')
         .verify.containsText('.eb-page-heading', 'REGISTRATION COMPLETED')
         return this
-    }
+    },
+
 }
 module.exports = {
     url: 'https://whytry.org/',
@@ -43,28 +53,56 @@ module.exports = {
             selector: '(//a[text()="Home"])[1]',
             locateStrategy: 'xpath'
         },
+        homem: {
+            selector: '(//a[text()="Home"])[2]',
+            locateStrategy: 'xpath'
+        },
         products:{
             selector: '(//a[text()="Products"])[1]',
+            locateStrategy: 'xpath'
+        },
+        productsm:{
+            selector: '(//a[text()="Products"])[2]',
             locateStrategy: 'xpath'
         },
         events: {
             selector: '(//a[text()="Training/Events"])[1]',
             locateStrategy: 'xpath'
         },
+        eventsm: {
+            selector: '(//a[text()="Training/Events"])[2]',
+            locateStrategy: 'xpath'
+        },
         resources: {
             selector: '(//a[text()="Resources"])[1]',
+            locateStrategy: 'xpath'
+        },
+        resourcesm: {
+            selector: '(//a[text()="Resources"])[2]',
             locateStrategy: 'xpath'
         },
         demo: {
             selector: '(//a[text()="Request Demo"])[1]',
             locateStrategy: 'xpath'
         },
+        demom: {
+            selector: '(//a[text()="Request Demo"])[2]',
+            locateStrategy: 'xpath'
+        },
         about: {
             selector: '(//a[text()="About Us"])[1]',
             locateStrategy: 'xpath'
         },
+        aboutm: {
+            selector: '(//a[text()="About Us"])[2]',
+            locateStrategy: 'xpath'
+        },
         login: {
             selector: '(//a[text()="Login"])[1]',
+            locateStrategy: 'xpath'
+        },
+        loginm: {
+            selector: '(//a[text()="Login"])[last()]',
             locateStrategy: 'xpath'
         },
         search: '.uk-search-field',
@@ -132,5 +170,6 @@ module.exports = {
             selector: '(//h1)[1]',
             locateStrategy: 'xpath'
         },
+        popout: '.uk-navbar-toggle',
     }
 }
